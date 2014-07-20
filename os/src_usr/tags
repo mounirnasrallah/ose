@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+E2BIG	libc/error.h	/^    E2BIG   = 5,    \/\/ Argument list too long$/;"	e	enum:errno
+EACCES	libc/error.h	/^    EACCES  = 8,    \/\/ Permission denied$/;"	e	enum:errno
+EAGAIN	libc/error.h	/^    EAGAIN  = 6,    \/\/ Try again$/;"	e	enum:errno
+EBUSY	libc/error.h	/^    EBUSY   = 10,   \/\/ Device or resource busy$/;"	e	enum:errno
+EFAULT	libc/error.h	/^    EFAULT  = 9,    \/\/ Bad address$/;"	e	enum:errno
+EFBIG	libc/error.h	/^    EFBIG   = 14,   \/\/ File too large$/;"	e	enum:errno
+EINTR	libc/error.h	/^    EINTR   = 2,    \/\/ Interrupted system call$/;"	e	enum:errno
+EINVAL	libc/error.h	/^    EINVAL  = 12,   \/\/ Invalid argument$/;"	e	enum:errno
+EIO	libc/error.h	/^    EIO     = 3,    \/\/ I\/O error$/;"	e	enum:errno
+ENODEV	libc/error.h	/^    ENODEV  = 11,   \/\/ No such device$/;"	e	enum:errno
+ENOMEM	libc/error.h	/^    ENOMEM  = 7,    \/\/ Out of memory$/;"	e	enum:errno
+ENOSPC	libc/error.h	/^    ENOSPC  = 15,   \/\/ No space left on device$/;"	e	enum:errno
+ENOSYS	libc/error.h	/^    ENOSYS  = 16,   \/\/ Function not implemented$/;"	e	enum:errno
+ENOTTY	libc/error.h	/^    ENOTTY  = 13,   \/\/ Not a typewriter$/;"	e	enum:errno
+ENXIO	libc/error.h	/^    ENXIO   = 4,    \/\/ No such device or address$/;"	e	enum:errno
+EPERM	libc/error.h	/^    EPERM   = 1,    \/\/ Operation not permitted$/;"	e	enum:errno
+ERANGE	libc/error.h	/^    ERANGE  = 17,   \/\/ Math result not representable$/;"	e	enum:errno
+FAILURE	libc/error.h	/^    FAILURE = -1,   \/\/ any error$/;"	e	enum:errno
+SUCCESS	libc/error.h	/^    SUCCESS = 0,    \/\/ no error$/;"	e	enum:errno
+_ERROR_H_	libc/error.h	2;"	d
+errno	libc/error.h	/^enum errno {$/;"	g
+putc	libc/putc.c	/^int putc(int c, int fd)$/;"	f
